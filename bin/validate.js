@@ -12,7 +12,9 @@ if (!sudoku) {
 } else {
   fs.readFile(sudoku, (error, data) => {
     if (error) throw error
-
-    console.log(Validator.validate(sudoku.toString()))
+    const startTime = performance.now();
+    console.log(Validator.validate(data.toString()))
+    const endTime = performance.now();
+    console.log(`Done in ${endTime - startTime} ms`)
   })
 }
