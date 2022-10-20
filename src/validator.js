@@ -103,7 +103,7 @@ class Validator {
 
    
     }
-    /*subgroups masīvs beigās iegūst šādu viedolu:
+    /*subgroups masīvs beigās iegūst šādu veidolu:
     
     [
       [1,2,3,4,5,6,7,8,9],
@@ -153,7 +153,7 @@ class Validator {
         row.push(array[i]);
       }
     }
-    /*rows masīvs beigās iegūst šādu viedolu:
+    /*rows masīvs beigās iegūst šādu veidolu:
     
     [
       [1,2,3,4,5,6,7,8,9],
@@ -180,7 +180,7 @@ class Validator {
       column = [];
     }
 
-    /*columns masīvs beigās iegūst šādu viedolu:
+    /*columns masīvs beigās iegūst šādu veidolu:
     
     [
       [1,2,3,4,5,6,7,8,9],
